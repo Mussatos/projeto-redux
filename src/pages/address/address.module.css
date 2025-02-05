@@ -37,3 +37,12 @@
   padding: 0 14px;
   font-size: 16px;
 }
+
+.deleteButton{
+  margin-left: 16px;
+  padding: 6px;
+  border: 0;
+  background-color: #D60E0E;
+  color: #fff;
+  border-radius: 4px;
+}

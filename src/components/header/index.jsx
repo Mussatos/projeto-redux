@@ -1,11 +1,13 @@
 import styles from './header.module.css'
 import { Link, useNavigate } from 'react-router-dom'
 
-import { useSelector } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
+import { logoutUser } from '../../redux/user/slice'
 
 export function Header(){
 
   const { user } = useSelector((rootReducer) => rootReducer.user)
+  const dispatch = useDispatch();
 
   const navigate = useNavigate();
 
